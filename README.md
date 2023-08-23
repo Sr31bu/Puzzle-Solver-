@@ -26,15 +26,6 @@ The `State` class in this file represents a state in the state-space search tree
 
 In this file, the `Searcher` class is implemented as a base class for state-space search algorithms. It includes methods for adding and prioritizing states, selecting the next state to explore, and performing a search for the solution. Additional classes, such as `BFSearcher`, `DFSearcher`, `GreedySearcher`, and `AStarSearcher`, inherit from the `Searcher` class and implement different search algorithms.
 
-## Running the Code
-
-To run the Eight Puzzle solver, follow these steps:
-
-1. Ensure you have Python installed on your system.
-2. Clone this repository to your local machine.
-3. Modify the puzzle configuration in `state.py` to set the initial state.
-4. Choose a search algorithm in `searcher.py` (e.g., `BFSearcher`, `DFSearcher`, `GreedySearcher`, `AStarSearcher`) and instantiate it with the initial state.
-5. Run the selected search algorithm and observe the sequence of moves and the solution.
 
 ## Tech Stack
 
@@ -49,5 +40,3 @@ The project employs the following technologies:
 
 - Shashank Ramachandran (sr31@bu.edu)
 - Michael Krah (mickra@bu.edu)
-
-Please note that this project is designed for educational purposes and focuses on showcasing different state-space search algorithms applied to the Eight Puzzle. For more advanced applications, additional features and optimizations can be explored.
